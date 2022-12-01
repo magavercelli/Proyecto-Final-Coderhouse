@@ -1,0 +1,30 @@
+.contenedor {
+    background-image: linear-gradient($color-hf);
+    box-shadow: $shadow-hf;
+    margin-bottom: 1rem;
+
+    .imgHeader {
+        display: flex;
+        justify-content: center;
+
+        .dibujo {
+            width: 70%;
+            border-radius: .3rem;
+        }
+    }
+
+    .tituloPrincipal {
+        text-align: center;
+
+        h1 {
+            font-family: $fuente-principal;
+            font-size: 1.8rem;
+            margin: 2.5rem auto;
+        }
+
+        p {
+            font-family: $fuente-secundaria;
+            font-size: 1.2rem;
+        }
+    }
+}

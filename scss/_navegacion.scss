@@ -1,0 +1,17 @@
+nav {
+    background-image: linear-gradient(#56CCF2, #6DD5FA, #FFFFFF);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 auto;
+
+    .navbar-brand img {
+        position: relative;
+    }
+
+    .navbar-nav a {
+        font-family: $fuente-secundaria;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
